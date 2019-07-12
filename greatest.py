@@ -7,11 +7,11 @@ elif(b>a and b>c):
   print(b)
 elif(c>a and c>b):
   print(c)
-elif(a=b):
+elif(a==b):
   print(a)
-elif(b=c):
+elif(b==c):
   print(b)
-elif(a=c):
+elif(a==c):
   print(a)
-elif(a=b=c):
+elif(a==b==c):
   print(a)
