@@ -1,6 +1,6 @@
 a=int(input())
-s=0
+x=0
 while(a>0):
-    s=s+a
+    x=x+a
     a=a-1
-print(s)
+print(x)
