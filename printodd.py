@@ -1,6 +1,6 @@
 list1=""
 (a,b)=map(int,(input()).split())
-for i in range(a,b):
+for i in range(a+1,b):
     if i==1:
         continue
     if i%2!=0:
