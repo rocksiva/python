@@ -1,5 +1,6 @@
 a1=input()
-if a1.isnumeric():
-    print("yes")
+b1=a1.strip(" ").replace(".","",1).isdigit()
+if (b1== True):
+    print('yes')
 else:
-    print("no")
+    print('No')
