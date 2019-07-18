@@ -1,2 +1,2 @@
-a=input()
-print(a.count('.')+1)
+a1=input()
+print(a1.count('.')+1)
